@@ -1,0 +1,46 @@
+body
+{
+	font-family: TIFAX, Helvetica, Arial;
+	background-image: linear-gradient(left, white 14.28%, yellow 14.28%, yellow 28.56%, #6EFFFF 28.56%, #6EFFFF 42.85%, green 42.85%, green 57.14%, #FF00FF 57.14%, #FF00FF 71.42%, red 71.42%, red 85.71%, blue 85.71%);
+	background-image: -o-linear-gradient(left, white 14.28%, yellow 14.28%, yellow 28.56%, #6EFFFF 28.56%, #6EFFFF 42.85%, green 42.85%, green 57.14%, #FF00FF 57.14%, #FF00FF 71.42%, red 71.42%, red 85.71%, blue 85.71%);
+	background-image: -moz-linear-gradient(left, white 14.28%, yellow 14.28%, yellow 28.56%, #6EFFFF 28.56%, #6EFFFF 42.85%, green 42.85%, green 57.14%, #FF00FF 57.14%, #FF00FF 71.42%, red 71.42%, red 85.71%, blue 85.71%);
+	background-image: -webkit-linear-gradient(left, white 14.28%, yellow 14.28%, yellow 28.56%, #6EFFFF 28.56%, #6EFFFF 42.85%, green 42.85%, green 57.14%, #FF00FF 57.14%, #FF00FF 71.42%, red 71.42%, red 85.71%, blue 85.71%);
+	background-image: -ms-linear-gradient(left, white 14.28%, yellow 14.28%, yellow 28.56%, #6EFFFF 28.56%, #6EFFFF 42.85%, green 42.85%, green 57.14%, #FF00FF 57.14%, #FF00FF 71.42%, red 71.42%, red 85.71%, blue 85.71%);
+}
+div#background
+{
+	z-index:-1;
+}
+div#application
+{
+}
+div#application > div#header
+{
+	text-align:center;
+	margin:20% 20% 0 20%;
+	font-size:2em;
+	background:black;
+	color:white;
+}
+div#application > div#body
+{
+}
+div#application > div#footer
+{
+	position:absolute;
+	bottom:0;
+	padding:0 20px 20px 20px;
+}
+@font-face
+{
+	font-family: TIFAX;
+	src: url('http://adelinofaria.me/public/font/TIFAX.ttf') format('truetype');
+}
+
+@media (max-width: 320px)
+{
+}
+
+@media (min-width: 720px and max-width: 1024px)
+{
+}
